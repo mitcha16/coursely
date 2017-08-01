@@ -23,6 +23,9 @@ gem 'mime-types'
 gem 'netrc'
 gem 'http-accept'
 gem 'http-cookie'
+gem 'bootstrap-sass', '3.3.7'
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
