@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/courses/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:53:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9296b4cce491337d328d3c327bb0e85c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a77ad13e-6c41-4ac4-af27-0ed2b248ba4b
+      X-Runtime:
+      - '0.015452'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"title":"Healthcare Course","description":"Maiores vel labore
+        fugit saepe id minima.","created_at":"2017-08-01T18:28:19.656Z","updated_at":"2017-08-01T18:28:19.656Z"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:53:40 GMT
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/courses/1/assignments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:53:40 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ea9e654857b7f602b0fe72c330ae3d13"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9b485ab9-47cf-4664-875b-babf1aa3de16
+      X-Runtime:
+      - '0.030945'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"due_by":"2017-09-06","assigned_at":"2017-07-14","completed_at":null,"lesson_id":1,"assignee_id":6,"created_at":"2017-08-01T18:28:20.249Z","updated_at":"2017-08-01T18:28:20.249Z","status":"Complete"},{"id":2,"due_by":"2017-08-30","assigned_at":"2017-07-16","completed_at":null,"lesson_id":1,"assignee_id":4,"created_at":"2017-08-01T18:28:20.274Z","updated_at":"2017-08-01T18:28:20.274Z","status":"Incomplete"},{"id":3,"due_by":"2017-08-10","assigned_at":"2017-07-30","completed_at":null,"lesson_id":1,"assignee_id":4,"created_at":"2017-08-01T18:28:20.295Z","updated_at":"2017-08-01T18:28:20.295Z","status":"Complete"},{"id":4,"due_by":"2017-08-05","assigned_at":"2017-07-20","completed_at":null,"lesson_id":1,"assignee_id":5,"created_at":"2017-08-01T18:28:20.310Z","updated_at":"2017-08-01T18:28:20.310Z","status":"Incomplete"},{"id":5,"due_by":"2017-08-27","assigned_at":"2017-07-23","completed_at":null,"lesson_id":2,"assignee_id":5,"created_at":"2017-08-01T18:28:20.325Z","updated_at":"2017-08-01T18:28:20.325Z","status":"Complete"},{"id":6,"due_by":"2017-09-11","assigned_at":"2017-07-28","completed_at":null,"lesson_id":2,"assignee_id":4,"created_at":"2017-08-01T18:28:20.344Z","updated_at":"2017-08-01T18:28:20.344Z","status":"Incomplete"},{"id":7,"due_by":"2017-08-19","assigned_at":"2017-07-12","completed_at":null,"lesson_id":2,"assignee_id":9,"created_at":"2017-08-01T18:28:20.361Z","updated_at":"2017-08-01T18:28:20.361Z","status":"Complete"},{"id":8,"due_by":"2017-09-09","assigned_at":"2017-07-19","completed_at":null,"lesson_id":2,"assignee_id":7,"created_at":"2017-08-01T18:28:20.392Z","updated_at":"2017-08-01T18:28:20.392Z","status":"Incomplete"},{"id":9,"due_by":"2017-08-29","assigned_at":"2017-07-14","completed_at":null,"lesson_id":3,"assignee_id":1,"created_at":"2017-08-01T18:28:20.409Z","updated_at":"2017-08-01T18:28:20.409Z","status":"Complete"},{"id":10,"due_by":"2017-08-28","assigned_at":"2017-07-26","completed_at":null,"lesson_id":3,"assignee_id":8,"created_at":"2017-08-01T18:28:20.432Z","updated_at":"2017-08-01T18:28:20.432Z","status":"Incomplete"},{"id":11,"due_by":"2017-08-20","assigned_at":"2017-07-21","completed_at":null,"lesson_id":3,"assignee_id":9,"created_at":"2017-08-01T18:28:20.454Z","updated_at":"2017-08-01T18:28:20.454Z","status":"Complete"},{"id":12,"due_by":"2017-09-07","assigned_at":"2017-07-12","completed_at":null,"lesson_id":3,"assignee_id":5,"created_at":"2017-08-01T18:28:20.468Z","updated_at":"2017-08-01T18:28:20.468Z","status":"Incomplete"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:53:40 GMT
+recorded_with: VCR 3.0.3

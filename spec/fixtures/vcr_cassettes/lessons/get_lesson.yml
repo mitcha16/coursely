@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/lessons/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:55:20 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a6d8ddb5849cc9edef9dfadf43da91c2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c57c6126-274c-4a85-a42a-08bee6f72554
+      X-Runtime:
+      - '0.006524'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"title":"Work under pressure","assignees_count":4,"completed_count":0,"course_id":1,"created_at":"2017-08-01T18:28:19.798Z","updated_at":"2017-08-01T18:28:20.310Z"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:55:20 GMT
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/lessons/1/assignments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:55:20 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"03a16fb514990876aa89f481e8f7a3e0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d87631f6-6b02-415c-a081-1f80d4b34dd6
+      X-Runtime:
+      - '0.009618'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"due_by":"2017-09-06","assigned_at":"2017-07-14","completed_at":null,"lesson_id":1,"assignee_id":6,"created_at":"2017-08-01T18:28:20.249Z","updated_at":"2017-08-01T18:28:20.249Z","status":"Complete"},{"id":2,"due_by":"2017-08-30","assigned_at":"2017-07-16","completed_at":null,"lesson_id":1,"assignee_id":4,"created_at":"2017-08-01T18:28:20.274Z","updated_at":"2017-08-01T18:28:20.274Z","status":"Incomplete"},{"id":3,"due_by":"2017-08-10","assigned_at":"2017-07-30","completed_at":null,"lesson_id":1,"assignee_id":4,"created_at":"2017-08-01T18:28:20.295Z","updated_at":"2017-08-01T18:28:20.295Z","status":"Complete"},{"id":4,"due_by":"2017-08-05","assigned_at":"2017-07-20","completed_at":null,"lesson_id":1,"assignee_id":5,"created_at":"2017-08-01T18:28:20.310Z","updated_at":"2017-08-01T18:28:20.310Z","status":"Incomplete"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:55:21 GMT
+recorded_with: VCR 3.0.3

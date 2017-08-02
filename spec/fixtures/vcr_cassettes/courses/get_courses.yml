@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/courses
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:53:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5baaeafbc52ca8e6a369e85a5fabbb7b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 654a14a0-57a5-400a-ae7e-dde2995abba4
+      X-Runtime:
+      - '0.007341'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"title":"Healthcare Course","description":"Maiores vel labore
+        fugit saepe id minima.","created_at":"2017-08-01T18:28:19.656Z","updated_at":"2017-08-01T18:28:19.656Z"},{"id":2,"title":"Administration
+        Course","description":"Labore sint enim architecto voluptatem.","created_at":"2017-08-01T18:28:19.665Z","updated_at":"2017-08-01T18:28:19.665Z"},{"id":3,"title":"IT
+        Course","description":"Officia similique ut ut deleniti temporibus.","created_at":"2017-08-01T18:28:19.683Z","updated_at":"2017-08-01T18:28:19.683Z"},{"id":4,"title":"Construction
+        Course","description":"Quam esse et quis odit.","created_at":"2017-08-01T18:28:19.696Z","updated_at":"2017-08-01T18:28:19.696Z"},{"id":5,"title":"Sales
+        Course","description":"Corporis dolorum amet quo commodi.","created_at":"2017-08-01T18:28:19.715Z","updated_at":"2017-08-01T18:28:19.715Z"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:53:40 GMT
+recorded_with: VCR 3.0.3

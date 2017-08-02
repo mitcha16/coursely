@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/users/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:52:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"babae97c131f28f6c556c046475d7732"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3ab7cc01-33be-4588-aefa-d5c7e27daee0
+      X-Runtime:
+      - '0.006917'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Mabelle","email":"elia.ebert@hansen.info","role":"learner","job_title":"Global
+        IT Representative","business_unit":"Global","department":"Hospitality","location":"Wisconsin","hire_date":"2017-07-11","manager_name":null,"created_at":"2017-08-01T18:28:20.091Z","updated_at":"2017-08-01T18:28:20.091Z"}'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:52:25 GMT
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/users/1/assignments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:52:24 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f34f55a0b629a0f44c23e23da771d9f0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a66c2cdd-f233-46b2-afc1-07c8b551d0fb
+      X-Runtime:
+      - '0.009807'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":9,"due_by":"2017-08-29","assigned_at":"2017-07-14","completed_at":null,"lesson_id":3,"assignee_id":1,"created_at":"2017-08-01T18:28:20.409Z","updated_at":"2017-08-01T18:28:20.409Z","status":"Complete"},{"id":17,"due_by":"2017-09-15","assigned_at":"2017-07-13","completed_at":null,"lesson_id":5,"assignee_id":1,"created_at":"2017-08-01T18:28:20.559Z","updated_at":"2017-08-01T18:28:20.559Z","status":"Complete"},{"id":50,"due_by":"2017-08-03","assigned_at":"2017-07-26","completed_at":null,"lesson_id":13,"assignee_id":1,"created_at":"2017-08-01T18:28:21.476Z","updated_at":"2017-08-01T18:28:21.476Z","status":"Incomplete"},{"id":52,"due_by":"2017-09-06","assigned_at":"2017-07-12","completed_at":null,"lesson_id":13,"assignee_id":1,"created_at":"2017-08-01T18:28:21.517Z","updated_at":"2017-08-01T18:28:21.517Z","status":"Incomplete"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:52:25 GMT
+recorded_with: VCR 3.0.3

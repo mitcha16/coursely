@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/assignments/incomplete
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 16:06:30 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"447f6f808be7948614808d834a4ebeea"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8ed8c212-0e4c-4c94-8dfa-43c063843399
+      X-Runtime:
+      - '0.026081'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":2,"due_by":"2017-08-30","assigned_at":"2017-07-16","completed_at":null,"lesson_id":1,"assignee_id":4,"created_at":"2017-08-01T18:28:20.274Z","updated_at":"2017-08-01T18:28:20.274Z","status":"Incomplete"},{"id":4,"due_by":"2017-08-05","assigned_at":"2017-07-20","completed_at":null,"lesson_id":1,"assignee_id":5,"created_at":"2017-08-01T18:28:20.310Z","updated_at":"2017-08-01T18:28:20.310Z","status":"Incomplete"},{"id":6,"due_by":"2017-09-11","assigned_at":"2017-07-28","completed_at":null,"lesson_id":2,"assignee_id":4,"created_at":"2017-08-01T18:28:20.344Z","updated_at":"2017-08-01T18:28:20.344Z","status":"Incomplete"},{"id":8,"due_by":"2017-09-09","assigned_at":"2017-07-19","completed_at":null,"lesson_id":2,"assignee_id":7,"created_at":"2017-08-01T18:28:20.392Z","updated_at":"2017-08-01T18:28:20.392Z","status":"Incomplete"},{"id":10,"due_by":"2017-08-28","assigned_at":"2017-07-26","completed_at":null,"lesson_id":3,"assignee_id":8,"created_at":"2017-08-01T18:28:20.432Z","updated_at":"2017-08-01T18:28:20.432Z","status":"Incomplete"},{"id":12,"due_by":"2017-09-07","assigned_at":"2017-07-12","completed_at":null,"lesson_id":3,"assignee_id":5,"created_at":"2017-08-01T18:28:20.468Z","updated_at":"2017-08-01T18:28:20.468Z","status":"Incomplete"},{"id":14,"due_by":"2017-08-10","assigned_at":"2017-07-27","completed_at":null,"lesson_id":4,"assignee_id":3,"created_at":"2017-08-01T18:28:20.497Z","updated_at":"2017-08-01T18:28:20.497Z","status":"Incomplete"},{"id":16,"due_by":"2017-08-05","assigned_at":"2017-07-23","completed_at":null,"lesson_id":4,"assignee_id":8,"created_at":"2017-08-01T18:28:20.539Z","updated_at":"2017-08-01T18:28:20.539Z","status":"Incomplete"},{"id":18,"due_by":"2017-09-06","assigned_at":"2017-07-17","completed_at":null,"lesson_id":5,"assignee_id":6,"created_at":"2017-08-01T18:28:20.573Z","updated_at":"2017-08-01T18:28:20.573Z","status":"Incomplete"},{"id":20,"due_by":"2017-09-13","assigned_at":"2017-07-29","completed_at":null,"lesson_id":5,"assignee_id":7,"created_at":"2017-08-01T18:28:20.609Z","updated_at":"2017-08-01T18:28:20.609Z","status":"Incomplete"},{"id":22,"due_by":"2017-08-20","assigned_at":"2017-07-12","completed_at":null,"lesson_id":6,"assignee_id":3,"created_at":"2017-08-01T18:28:20.650Z","updated_at":"2017-08-01T18:28:20.650Z","status":"Incomplete"},{"id":24,"due_by":"2017-08-25","assigned_at":"2017-07-19","completed_at":null,"lesson_id":6,"assignee_id":3,"created_at":"2017-08-01T18:28:20.682Z","updated_at":"2017-08-01T18:28:20.682Z","status":"Incomplete"},{"id":26,"due_by":"2017-09-10","assigned_at":"2017-07-30","completed_at":null,"lesson_id":7,"assignee_id":2,"created_at":"2017-08-01T18:28:20.729Z","updated_at":"2017-08-01T18:28:20.729Z","status":"Incomplete"},{"id":28,"due_by":"2017-08-18","assigned_at":"2017-07-19","completed_at":null,"lesson_id":7,"assignee_id":6,"created_at":"2017-08-01T18:28:20.767Z","updated_at":"2017-08-01T18:28:20.767Z","status":"Incomplete"},{"id":30,"due_by":"2017-09-11","assigned_at":"2017-07-25","completed_at":null,"lesson_id":8,"assignee_id":5,"created_at":"2017-08-01T18:28:20.833Z","updated_at":"2017-08-01T18:28:20.833Z","status":"Incomplete"},{"id":32,"due_by":"2017-08-14","assigned_at":"2017-07-25","completed_at":null,"lesson_id":8,"assignee_id":5,"created_at":"2017-08-01T18:28:20.907Z","updated_at":"2017-08-01T18:28:20.907Z","status":"Incomplete"},{"id":34,"due_by":"2017-08-24","assigned_at":"2017-07-15","completed_at":null,"lesson_id":9,"assignee_id":5,"created_at":"2017-08-01T18:28:20.976Z","updated_at":"2017-08-01T18:28:20.976Z","status":"Incomplete"},{"id":36,"due_by":"2017-08-19","assigned_at":"2017-07-16","completed_at":null,"lesson_id":9,"assignee_id":8,"created_at":"2017-08-01T18:28:21.036Z","updated_at":"2017-08-01T18:28:21.036Z","status":"Incomplete"},{"id":38,"due_by":"2017-08-20","assigned_at":"2017-07-13","completed_at":null,"lesson_id":10,"assignee_id":8,"created_at":"2017-08-01T18:28:21.132Z","updated_at":"2017-08-01T18:28:21.132Z","status":"Incomplete"},{"id":40,"due_by":"2017-09-03","assigned_at":"2017-07-24","completed_at":null,"lesson_id":10,"assignee_id":5,"created_at":"2017-08-01T18:28:21.196Z","updated_at":"2017-08-01T18:28:21.196Z","status":"Incomplete"},{"id":42,"due_by":"2017-09-15","assigned_at":"2017-07-22","completed_at":null,"lesson_id":11,"assignee_id":7,"created_at":"2017-08-01T18:28:21.268Z","updated_at":"2017-08-01T18:28:21.268Z","status":"Incomplete"},{"id":44,"due_by":"2017-08-13","assigned_at":"2017-07-26","completed_at":null,"lesson_id":11,"assignee_id":4,"created_at":"2017-08-01T18:28:21.365Z","updated_at":"2017-08-01T18:28:21.365Z","status":"Incomplete"},{"id":46,"due_by":"2017-08-19","assigned_at":"2017-07-12","completed_at":null,"lesson_id":12,"assignee_id":8,"created_at":"2017-08-01T18:28:21.401Z","updated_at":"2017-08-01T18:28:21.401Z","status":"Incomplete"},{"id":48,"due_by":"2017-08-10","assigned_at":"2017-07-30","completed_at":null,"lesson_id":12,"assignee_id":2,"created_at":"2017-08-01T18:28:21.444Z","updated_at":"2017-08-01T18:28:21.444Z","status":"Incomplete"},{"id":50,"due_by":"2017-08-03","assigned_at":"2017-07-26","completed_at":null,"lesson_id":13,"assignee_id":1,"created_at":"2017-08-01T18:28:21.476Z","updated_at":"2017-08-01T18:28:21.476Z","status":"Incomplete"},{"id":52,"due_by":"2017-09-06","assigned_at":"2017-07-12","completed_at":null,"lesson_id":13,"assignee_id":1,"created_at":"2017-08-01T18:28:21.517Z","updated_at":"2017-08-01T18:28:21.517Z","status":"Incomplete"},{"id":54,"due_by":"2017-09-13","assigned_at":"2017-07-24","completed_at":null,"lesson_id":14,"assignee_id":4,"created_at":"2017-08-01T18:28:21.563Z","updated_at":"2017-08-01T18:28:21.563Z","status":"Incomplete"},{"id":56,"due_by":"2017-08-04","assigned_at":"2017-07-15","completed_at":null,"lesson_id":14,"assignee_id":3,"created_at":"2017-08-01T18:28:21.594Z","updated_at":"2017-08-01T18:28:21.594Z","status":"Incomplete"},{"id":58,"due_by":"2017-08-18","assigned_at":"2017-07-29","completed_at":null,"lesson_id":15,"assignee_id":2,"created_at":"2017-08-01T18:28:21.657Z","updated_at":"2017-08-01T18:28:21.657Z","status":"Incomplete"},{"id":60,"due_by":"2017-08-06","assigned_at":"2017-07-17","completed_at":null,"lesson_id":15,"assignee_id":9,"created_at":"2017-08-01T18:28:21.694Z","updated_at":"2017-08-01T18:28:21.694Z","status":"Incomplete"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 16:06:31 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coursely-api.herokuapp.com/api/v1/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin14.5.0 x86_64) ruby/2.4.1p111
+      Host:
+      - coursely-api.herokuapp.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 02 Aug 2017 15:52:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5a80017c68aeb38d0f80fd8daa26a0ea"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 80e0b1f1-0c29-48fa-a986-baba72ac29d1
+      X-Runtime:
+      - '0.010032'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Mabelle","email":"elia.ebert@hansen.info","role":"learner","job_title":"Global
+        IT Representative","business_unit":"Global","department":"Hospitality","location":"Wisconsin","hire_date":"2017-07-11","manager_name":null,"created_at":"2017-08-01T18:28:20.091Z","updated_at":"2017-08-01T18:28:20.091Z"},{"id":2,"name":"Judd","email":"moie@zulaufschoen.io","role":"learner","job_title":"Investor
+        Director","business_unit":"Global","department":"Real-Estate","location":"Nebraska","hire_date":"2017-07-08","manager_name":null,"created_at":"2017-08-01T18:28:20.107Z","updated_at":"2017-08-01T18:28:20.107Z"},{"id":3,"name":"Cyril","email":"johnathan@oconnerupton.org","role":"learner","job_title":"Forward
+        Sales Architect","business_unit":"Global","department":"Marketing","location":"Illinois","hire_date":"2017-07-12","manager_name":null,"created_at":"2017-08-01T18:28:20.118Z","updated_at":"2017-08-01T18:28:20.118Z"},{"id":4,"name":"Emily","email":"berta_romaguera@naderjacobson.io","role":"learner","job_title":"Dynamic
+        Developer","business_unit":"Global","department":"Marketing","location":"Delaware","hire_date":"2017-07-25","manager_name":null,"created_at":"2017-08-01T18:28:20.127Z","updated_at":"2017-08-01T18:28:20.127Z"},{"id":5,"name":"Willow","email":"alejandra.cole@effertz.org","role":"learner","job_title":"Marketing
+        Facilitator","business_unit":"Global","department":"Banking","location":"Kentucky","hire_date":"2017-07-31","manager_name":null,"created_at":"2017-08-01T18:28:20.135Z","updated_at":"2017-08-01T18:28:20.135Z"},{"id":6,"name":"Houston","email":"nedra@emardtillman.co","role":"learner","job_title":"Senior
+        Consulting Technician","business_unit":"Global","department":"Manufacturing","location":"Illinois","hire_date":"2017-07-24","manager_name":null,"created_at":"2017-08-01T18:28:20.144Z","updated_at":"2017-08-01T18:28:20.144Z"},{"id":7,"name":"Arielle","email":"theresia_stark@bernier.net","role":"learner","job_title":"Consulting
+        Strategist","business_unit":"Global","department":"Advertising","location":"Ohio","hire_date":"2017-07-03","manager_name":null,"created_at":"2017-08-01T18:28:20.151Z","updated_at":"2017-08-01T18:28:20.151Z"},{"id":8,"name":"Chyna","email":"flavio@hahn.name","role":"learner","job_title":"Regional
+        Community-Services Producer","business_unit":"Global","department":"Retail","location":"Tennessee","hire_date":"2017-07-23","manager_name":null,"created_at":"2017-08-01T18:28:20.159Z","updated_at":"2017-08-01T18:28:20.159Z"},{"id":9,"name":"Gabe","email":"domenick_witting@watsicaraynor.co","role":"learner","job_title":"Consulting
+        Developer","business_unit":"Global","department":"Manufacturing","location":"Vermont","hire_date":"2017-07-15","manager_name":null,"created_at":"2017-08-01T18:28:20.170Z","updated_at":"2017-08-01T18:28:20.170Z"},{"id":10,"name":"Orin","email":"jerad@murphylangosh.com","role":"learner","job_title":"Administration
+        Executive","business_unit":"Global","department":"Farming","location":"Wisconsin","hire_date":"2017-07-18","manager_name":null,"created_at":"2017-08-01T18:28:20.179Z","updated_at":"2017-08-01T18:28:20.179Z"}]'
+    http_version: 
+  recorded_at: Wed, 02 Aug 2017 15:52:24 GMT
+recorded_with: VCR 3.0.3
