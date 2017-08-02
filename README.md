@@ -1,24 +1,6 @@
-# README
+# coursely
+An app I built to consume data from an external API with educational information.
+I hope to expand on the functionality by adding the abilitiy to create, update, and delete users, lessons, assignments and courses. I also hope to add the ability to assign assignments to a user.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://coursely.herokuapp.com/
+https://github.com/mitchashby16/l_api
