@@ -1,0 +1,17 @@
+<% provide(:title, 'Courses') %>
+<h1>Courses</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @courses.each do |course| %>
+    <%= render :partial => 'course', :locals => {:course => course} %>
+    <% end %>
+  </tbody>
+</table>

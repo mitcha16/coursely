@@ -1,0 +1,5 @@
+<tr>
+  <td><%=lesson['id']%></td>
+  <td><%= link_to lesson['title'], lesson_path(lesson['id']) %></td>
+  <td><%=lesson['assignees_count']%></td>
+</tr>

@@ -1,22 +1,16 @@
-<% provide(:title, @user['name']) %>
-<h1><%=@user['name']%></h1>
+<% provide(:title, @lesson['title']) %>
+<h1><%=@lesson['title']%></h1>
 
 <table class="table">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Role</th>
-      <th>Job Title</th>
-      <th>Business Unit</th>
-      <th>Department</th>
-      <th>Location</th>
-      <th>Hire Date</th>
-      <th>Manager Name</th>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Assignees Count</th>
     </tr>
   </thead>
   <tbody>
-    <%= render :partial => 'user', :locals => {:user => @user} %>
+    <%= render :partial => 'lesson', :locals => {:lesson => @lesson} %>
   </tbody>
 </table>
 <br>

@@ -5,5 +5,6 @@ class UsersController < ApplicationController
 
   def show
     @user = User.get_user(params[:id])
+    @assignments = User.get_assignments(params[:id])
   end
 end

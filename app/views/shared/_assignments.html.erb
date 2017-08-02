@@ -1,0 +1,8 @@
+<tr>
+  <td><%=assignment['id']%></td>
+  <td><%=assignment['due_by']%></td>
+  <td><%=assignment['assigned_at']%></td>
+  <td><%= link_to assignment['lesson_id'], lesson_path(assignment['lesson_id']) %></td>
+  <td><%= link_to assignment['assignee_id'], user_path(assignment['assignee_id']) %></td>
+  <td><%=assignment['status']%></td>
+</tr>
